@@ -1,0 +1,30 @@
+@use '@/assets/variables.scss' as variables;
+@use '@/assets/mixins.scss' as mixins;
+
+.table__header {
+    font-weight: 600;
+
+    th {
+        overflow: hidden;
+        position: relative;
+        font-size: 18px;
+        font-weight: 600;
+        border: {
+            top: 1px solid #eeeff1;
+            bottom: 1px solid #eeeff1;
+        }
+
+        &:first-child {
+            padding: 5px 10px 5px 15px;
+        }
+    
+        &:not(:first-child) {
+            padding: 5px 10px;
+        }
+
+        &:not(:last-child) {
+            border-right: 1px solid #eeeff1;
+        }
+    }
+   
+}

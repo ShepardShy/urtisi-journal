@@ -1,0 +1,20 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.form__item {
+    display: grid;
+    grid-gap: 10px;
+
+    label {
+        @include mixins.textOptions(14px, 300, 17px)
+
+    }
+
+    input, select {
+        border: 1px solid #000000;
+        border-radius: 4px;
+        padding: 10px 15px;    
+        outline: none;
+        @include mixins.textOptions(14px, 300, 17px)
+    }
+}

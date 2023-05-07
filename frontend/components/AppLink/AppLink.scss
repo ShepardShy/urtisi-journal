@@ -1,0 +1,7 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.link {
+    color: variables.$color-blue;
+    @include mixins.textOptions(16px, 400, 20px)
+}

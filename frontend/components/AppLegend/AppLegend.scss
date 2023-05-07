@@ -1,0 +1,48 @@
+@use '@/assets/variables.scss' as variables;
+@use '@/assets/mixins.scss' as mixins;
+
+.legend {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    right: 0px;
+    bottom: 0px;
+    pointer-events: none;
+}
+
+.legend__content {
+    padding: 15px;
+    width: 400px;
+    border: {
+        top:  1px solid #CCCCCC;
+        left:  1px solid #CCCCCC;
+    };
+    background: #fff;
+    z-index: 10;
+    border-radius: 0px 0px 5px 0px;
+}
+.legend__title {
+    @include mixins.textOptions(24px, 400, 29px);
+    margin-bottom: 15px;
+}
+
+.legend__list {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.legend__item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    @include mixins.textOptions(18px, 400, 22px);
+
+    &::before {
+        content: '';
+        border-radius: 50%;
+        background: var(--legend-color);
+        @include mixins.elemResolutionOptions(10px, 10px)
+    }
+}
+

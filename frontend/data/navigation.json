@@ -1,0 +1,72 @@
+[
+    {
+        "id": 0,
+        "root": "student",
+        "title": "Расписание",
+        "link": "/",
+        "img": {
+            "src": "/icons/calendar.svg",
+            "alt": "Иконка. Расписание"
+        },
+        "img_active": {
+            "src": "/icons/calendar_active.svg",
+            "alt": "Иконка. Расписание"
+        }
+    },
+    {
+        "id": 1,
+        "root": "student",
+        "title": "Журнал",
+        "link": "/journal",
+        "img": {
+            "src": "/icons/journal.svg",
+            "alt": "Иконка. Журнал"
+        },
+        "img_active": {
+            "src": "/icons/journal_active.svg",
+            "alt": "Иконка. Журнал"
+        }
+    },
+    {
+        "id": 0,
+        "root": "educator",
+        "title": "Расписание",
+        "link": "/educator",
+        "img": {
+            "src": "/icons/calendar.svg",
+            "alt": "Иконка. Расписание"
+        },
+        "img_active": {
+            "src": "/icons/calendar_active.svg",
+            "alt": "Иконка. Расписание"
+        }
+    },
+    {
+        "id": 1,
+        "root": "educator",
+        "title": "Журнал",
+        "link": "/educator/journal",
+        "img": {
+            "src": "/icons/journal.svg",
+            "alt": "Иконка. Журнал"
+        },
+        "img_active": {
+            "src": "/icons/journal_active.svg",
+            "alt": "Иконка. Журнал"
+        }
+    },
+    {
+        "id": 2,
+        "root": "educator",
+        "title": "Студенты",
+        "link": "/educator/students",
+        "img": {
+            "src": "/icons/group.svg",
+            "alt": "Иконка. Студенты"
+        },
+        "img_active": {
+            "src": "/icons/group_active.svg",
+            "alt": "Иконка. Студенты"
+        }
+    }
+]

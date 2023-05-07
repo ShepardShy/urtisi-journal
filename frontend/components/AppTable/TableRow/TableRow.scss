@@ -1,0 +1,41 @@
+@use '@/assets/variables.scss' as variables;
+@use '@/assets/mixins.scss' as mixins;
+
+.sortable-ghost {
+    .table__item {
+        background: #fbfcfd;
+
+        &:not(:first-child) {
+            padding: 3px 10px;
+        }
+
+        border: {
+            top: 2px dashed #a6b7d4;
+            bottom: 2px dashed #a6b7d4;
+            radius: 5px;
+        }
+
+        &:first-child {
+            border-left: 2px dashed #a6b7d4;
+            padding: 3px 10px 3px 15px;
+        }
+
+        &:last-child {
+            border-right: 2px dashed #a6b7d4;
+        }
+
+        & > * {
+            visibility: hidden;
+        }
+    }
+}
+
+.table__row {
+    &.table__row_blue {
+        background: rgba(60, 123, 252, 0.22);
+    }
+
+    &.table__row_grey {
+        background: rgba(100, 100, 100, 0.22);
+    }
+}

@@ -1,0 +1,10 @@
+@use '@/assets/variables.scss' as variables;
+@use '@/assets/mixins.scss' as mixins;
+
+.table__body {
+    .table__row {
+        &:hover {
+            background: rgba(100, 100, 100, 0.1)
+        }
+    }
+}

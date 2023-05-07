@@ -1,0 +1,44 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+
+.navigation {
+}
+.navigation__item {
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    &:not(:last-child) {
+        margin-bottom: 15px;
+    }
+
+    &:hover {
+        color: variables.$color-blue;
+    }
+
+    &.navigation__item_active {
+        color: variables.$color-blue;
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 3px;
+            height: 100%;
+            left: -15px;
+            display: block;
+            background: variables.$color-blue;
+        }
+    }
+}
+
+.navigation__icon {
+    @include mixins.elemResolutionOptions(40px, 40px);
+}
+
+.navigation__title {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}

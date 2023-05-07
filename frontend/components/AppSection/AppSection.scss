@@ -1,0 +1,28 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+section {
+    background: #FFFFFF;
+    box-shadow: 2px 2px 9px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    height: 80vh;
+    max-height: 80vh;
+    position: relative;
+    overflow: auto;
+
+    /* scrollbar для Chrome/Edge/Safari */
+    &::-webkit-scrollbar {
+        border-radius: 5px;
+        @include mixins.elemResolutionOptions(8px, 8px);
+    }
+
+    &::-webkit-scrollbar-track {
+        background: variables.$color-white;;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: variables.$color-blue;
+        border-radius: 5px;
+        border: 2px solid variables.$color-blue;
+    }
+}

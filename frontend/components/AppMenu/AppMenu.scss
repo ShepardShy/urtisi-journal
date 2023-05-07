@@ -1,0 +1,46 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.menu__logo {
+    margin-bottom: 40px;
+    @include mixins.elemResolutionOptions(175px, 35px)
+}
+
+.menu {
+    padding: 15px 25px 20px 15px;
+    z-index: 100;
+    display: grid;
+    position: fixed;
+    overflow: hidden;
+    border-right: 1px solid #000000;
+    grid-template-rows: auto 1fr auto;
+    animation-fill-mode: forwards;
+    background: variables.$color-white;
+    @include mixins.elemPositionOptions(0px, 0px);
+    @include mixins.elemResolutionOptions(63px, 100%);
+
+    &:hover {
+        animation: showMenu 0.2s linear;
+        animation-fill-mode: forwards;
+    }
+}
+.menu__navigation {
+}
+
+@keyframes showMenu {
+    0% {
+        width: 63px;
+    }
+    100% {
+        width: 215px;
+    }
+}
+
+@keyframes hiddenMenu {
+    0% {
+        width: 215px;
+    }
+    100% {
+        width: 63px;
+    }
+}

@@ -1,0 +1,27 @@
+[
+    {
+        "id": 0,
+        "title": "№",
+        "key": "id"
+    },
+    {
+        "id": 0,
+        "title": "Предмет",
+        "key": "subject"
+    },
+    {
+        "id": 0,
+        "title": "Тема",
+        "key": "theme"
+    },
+    {
+        "id": 0,
+        "title": "Преподаватель",
+        "key": "educator"
+    },
+    {
+        "id": 0,
+        "title": "Кабинет",
+        "key": "office"
+    }
+]

@@ -1,0 +1,25 @@
+@use '@/assets/variables.scss' as variables;
+@use '@/assets/mixins.scss' as mixins;
+
+
+.journal {
+    h1 {
+        margin-bottom: 0px;
+        width: 600px;
+    }
+
+    .journal__header {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        margin-bottom: 45px;
+    }
+
+    .journal__select {
+        width: 270px;
+    }
+
+    .journal__section {
+        height: 75vh;
+    }
+}

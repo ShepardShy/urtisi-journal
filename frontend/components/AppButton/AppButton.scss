@@ -1,0 +1,15 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+button {
+    border-radius: 4px;
+    padding: 15px 25px;
+    color: variables.$color-white;
+    text-transform: uppercase;
+    @include mixins.gridCenter();
+    @include mixins.textOptions(19px, 500, 23px);
+
+    &.button_blue {
+        background: variables.$color-light-blue;
+    }
+}

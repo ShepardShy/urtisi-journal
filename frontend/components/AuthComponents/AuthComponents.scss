@@ -1,0 +1,51 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.auth {
+    height: 100%;
+}
+
+.auth__logo {
+    position: absolute;
+    @include mixins.elemPositionOptions(20px, 80px);
+    @include mixins.elemResolutionOptions(310px, 70px);
+}
+
+.auth__h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    @include mixins.textOptions(34px, 400, 41px)
+}
+
+
+.auth__content {
+    margin: 260px auto;
+    @include mixins.elemResolutionOptions(440px, 100%);
+}
+
+.auth__button {
+    margin: 0 auto;
+    width: 290px;
+}
+
+.auth__form {
+    .auth__input {
+        label {
+            @include mixins.textOptions(19px, 300, 23px)
+        }
+    
+        input {
+            @include mixins.textOptions(19px, 300, 23px)
+        }
+
+        &:nth-child(2) {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.auth__link {
+    display: block;
+    margin-bottom: 45px;
+    text-decoration: underline;
+}
