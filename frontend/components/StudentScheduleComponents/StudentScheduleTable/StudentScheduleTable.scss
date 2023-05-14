@@ -1,0 +1,17 @@
+@use '@/assets/variables.scss' as variables;
+@use '@/assets/mixins.scss' as mixins;
+
+.table__shedule {
+    .table__header {
+        th {
+            text-align: center;
+        }
+    }
+
+    .table__item_center {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        @include mixins.textOptions(20px, 500, 29px)
+    }
+}

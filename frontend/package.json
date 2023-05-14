@@ -16,5 +16,6 @@
     "@pinia/nuxt": "^0.4.9",
     "pinia": "^2.0.35",
     "sass": "^1.62.1"
-  }
+  },
+  "packageManager": "yarn@3.5.1"
 }

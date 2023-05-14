@@ -1,9 +1,7 @@
 <template>
-    <p>
-        Расписание студента
-    </p>
+    <StudentScheduleComponents />
 </template>
 
 <script setup>
-    
+    import StudentScheduleComponents from '@/components/StudentScheduleComponents/StudentScheduleComponents.vue'
 </script>
