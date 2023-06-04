@@ -4,8 +4,8 @@
             {{ props.item.title }} 
         </label>
         <select :disabled="props.item.disabled" :value="props.item.value" :id="`${props.item.typeComponent}_${props.item.id}`" @change="(e) => this.$emit('changeValue', {key: props.item.objectTitle, value: e.target.value})">
-            <option v-for="(option, i) in props.item.options" :value="option.id" :selected="i == 0">
-                {{ option.value }}
+            <option v-for="(option, i) in props.item.options" :value="option.value" :selected="i == 0">
+                {{ option.title }}
             </option>
         </select>
     </FormItem>

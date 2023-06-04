@@ -1,3 +1,16 @@
 @use '@/assets/variables.scss' as variables;
 @use '@/assets/mixins.scss' as mixins;
 
+.form__item {
+    select {
+        cursor: pointer;
+    }
+}
+
+.journal__select {
+    width: 100%;
+
+    select {
+        width: 100%;
+    }
+}

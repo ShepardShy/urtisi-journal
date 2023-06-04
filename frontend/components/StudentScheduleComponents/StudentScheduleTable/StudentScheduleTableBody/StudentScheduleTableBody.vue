@@ -1,6 +1,6 @@
 <template>
     <TableBody>
-        <TableRow v-for="row in sheaduleStore.sheadule" :class="row.id == userStore.user.id ? 'table__row_blue' : ''">
+        <TableRow v-for="row in sheaduleStore.sheadule" :class="row.day == date ? 'table__row_blue' : ''">
             <TableItem 
                 v-for="item in StudentScheduleTableKeys" 
                 :style="`--default-width: ${item.width}`"
@@ -36,4 +36,8 @@
     const userStore = useUserStore()
     const sheaduleStore = useSheaduleStore()
     
+
+    let date = ref(new Date())
+    date.value = `${date.value.getDate() < 10 ? '0' + date.value.getDate() : date.value.getDate()}.${date.value.getMonth()+1 < 10 ? '0' + (Number(date.value.getMonth())+1) : date.value.getMonth()+1}`
+
 </script>

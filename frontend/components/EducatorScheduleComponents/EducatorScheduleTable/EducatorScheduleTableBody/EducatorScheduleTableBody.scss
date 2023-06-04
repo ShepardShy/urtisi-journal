@@ -1,0 +1,38 @@
+@use '@/assets/variables.scss' as variables;
+@use '@/assets/mixins.scss' as mixins;
+
+.table__item {
+    .table__item_sheadule {
+        display: grid;
+        grid-gap: 10px 0px;
+        grid-template-columns: repeat(2, 1fr);
+        @include mixins.textOptions(14px, 400, 22px);
+
+        &::before {
+            left: 0px;
+            top: -4px;
+            right: auto;
+            transform: rotate(-90deg);
+        }
+    }
+}
+
+
+
+.table__item_group {
+
+}
+
+.table__item_office {
+    justify-self: end;
+}
+
+.table__item_title {
+    grid-column: 1/3;
+    @include mixins.textOptions(18px, 400, 22px);
+}
+
+.table__item_stroke {
+    text-align: center;
+    @include mixins.textOptions(26px, 400, 32px);
+}

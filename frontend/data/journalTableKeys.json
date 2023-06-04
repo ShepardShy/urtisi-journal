@@ -1,0 +1,170 @@
+[
+    {
+        "id": 0,
+        "subject": "bjd",
+        "data": [
+            {
+                "id": 0,
+                "title": "№",
+                "key": "order",
+                "type": "text",
+                "width": "50px",
+                "theme": "Тема занятия",
+                "sort": 1
+            },
+            {
+                "id": 0,
+                "title": "ФИО Студента",
+                "key": "student",
+                "type": "text",
+                "width": "400px",
+                "theme": "Тема занятия",
+                "sort": 2
+            },
+            {
+                "id": 0,
+                "title": "02.12",
+                "key": "02.12",
+                "type": "mark",
+                "width": "100px",
+                "theme": "Тема занятия",
+                "sort": 3
+            },
+            {
+                "id": 0,
+                "title": "Итоговый балл",
+                "key": "total",
+                "type": "mark",
+                "width": "220px",
+                "theme": "Тема занятия",
+                "sort": 9999999999999999999999999
+            }
+        ] 
+    },
+    {
+        "id": 0,
+        "subject": "mathematic",
+        "data": [
+            {
+                "id": 0,
+                "title": "№",
+                "key": "order",
+                "type": "text",
+                "width": "50px",
+                "theme": "Тема занятия",
+                "sort": 1
+            },
+            {
+                "id": 0,
+                "title": "ФИО Студента",
+                "key": "student",
+                "type": "text",
+                "width": "400px",
+                "theme": "Тема занятия",
+                "sort": 2
+            },
+            {
+                "id": 0,
+                "title": "02.12",
+                "key": "02.12",
+                "type": "mark",
+                "width": "100px",
+                "theme": "Тема занятия",
+                "sort": 3
+            },
+            {
+                "id": 0,
+                "title": "Итоговый балл",
+                "key": "total",
+                "type": "mark",
+                "width": "220px",
+                "theme": "Тема занятия",
+                "sort": 9999999999999999999999999
+            }
+        ] 
+    },
+    {
+        "id": 0,
+        "subject": "fizra",
+        "data": [
+            {
+                "id": 0,
+                "title": "№",
+                "key": "order",
+                "type": "text",
+                "width": "50px",
+                "theme": "Тема занятия",
+                "sort": 1
+            },
+            {
+                "id": 0,
+                "title": "ФИО Студента",
+                "key": "student",
+                "type": "text",
+                "width": "400px",
+                "theme": "Тема занятия",
+                "sort": 2
+            },
+            {
+                "id": 0,
+                "title": "02.12",
+                "key": "02.12",
+                "type": "mark",
+                "width": "100px",
+                "theme": "Тема занятия",
+                "sort": 3
+            },
+            {
+                "id": 0,
+                "title": "Итоговый балл",
+                "key": "total",
+                "type": "mark",
+                "width": "220px",
+                "theme": "Тема занятия",
+                "sort": 9999999999999999999999999
+            }
+        ] 
+    },
+    {
+        "id": 0,
+        "subject": "russian",
+        "data": [
+            {
+                "id": 0,
+                "title": "№",
+                "key": "order",
+                "type": "text",
+                "width": "50px",
+                "theme": "Тема занятия",
+                "sort": 1
+            },
+            {
+                "id": 0,
+                "title": "ФИО Студента",
+                "key": "student",
+                "type": "text",
+                "width": "400px",
+                "theme": "Тема занятия",
+                "sort": 2
+            },
+            {
+                "id": 0,
+                "title": "02.12",
+                "key": "02.12",
+                "type": "mark",
+                "width": "100px",
+                "theme": "Тема занятия",
+                "sort": 3
+            },
+            {
+                "id": 0,
+                "title": "Итоговый балл",
+                "key": "total",
+                "type": "mark",
+                "width": "220px",
+                "theme": "Тема занятия",
+                "sort": 9999999999999999999999999
+            }
+        ] 
+    }
+]

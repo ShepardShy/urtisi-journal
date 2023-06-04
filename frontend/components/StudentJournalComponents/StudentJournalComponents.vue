@@ -6,38 +6,39 @@
             </AppH1>
 
             <AppSelect
-                class="journal__select"
-                :item="{
-                    id: 0,
-                    title: 'Предмет',
-                    typeComponent: 'select',
-                    objectTitle: '',
-                    disabled: false,
-                    value: '',
-                    options: [
-                        {
-                            id: 0,
-                            value: 'Компьютерные сети'
-                        },
-                        {
-                            id: 1,
-                            value: 'Предмет 2'
-                        },
-                        {
-                            id: 2,
-                            value: 'Предмет 3'
-                        },
-                        {
-                            id: 3,
-                            value: 'Предмет 4'
-                        },
-                        {
-                            id: 4,
-                            value: 'Предмет 5'
-                        }
-                    ]
-                }"
-            />
+                    class="journal__select"
+                    @changeValue="(data) => changeValue(data)"
+                    :item="{
+                        id: 0,
+                        title: 'Предмет',
+                        typeComponent: 'select',
+                        objectTitle: 'activeSubject',
+                        disabled: false,
+                        value: journalStore.activeSubject,
+                        options: [
+                            {
+                                id: 0,
+                                title: 'Безопасность жизнедеятельности',
+                                value: 'bjd'
+                            },
+                            {
+                                id: 1,
+                                title: 'Математика',
+                                value: 'mathematic'
+                            },
+                            {
+                                id: 2,
+                                title: 'Физическая культура',
+                                value: 'fizra'
+                            },
+                            {
+                                id: 3,
+                                title: 'Русский язык',
+                                value: 'russian'
+                            }
+                        ]
+                    }"
+                />
         </div>
             
         <AppSection class="journal__section">
@@ -55,6 +56,46 @@
     import AppSelect from '@/components/AppSelect/AppSelect.vue'
     import StudentJournalTable from './StudentJournalTable/StudentJournalTable.vue';
     import AppLegend from '../AppLegend/AppLegend.vue';
+
+    import { useJournalStore } from '@/stores/journalStore.js'
+    const journalStore = useJournalStore()
+
+    const changeValue = (data) => {
+        switch (data.key) {
+            case 'activeGroup':
+                journalStore.activeGroup = data.value
+                break;
+            case 'activeSubject':
+                journalStore.activeSubject = data.value
+            break;
+            default:
+                break;
+        }
+        journalStore.journal.filter(p => (p.group == journalStore.activeGroup) && (p.subject == journalStore.activeSubject)).forEach(element => {
+            setTotalMark(element)
+        }) 
+    }
+
+
+    const setTotalMark = (student) => {
+        let totalMark = 0
+        let markCount = 0
+        for (let key in student) {
+            if (key != 'id' && key != 'student' && key != 'total' && key != 'status' && key != 'group' && key != 'subject' && key != 'order') {
+                if (student[key].mark != '.') {
+                    totalMark += student[key].mark == '.' ?  0 : Number(student[key].mark)
+                    markCount++
+                }
+            }
+            student.total.mark = totalMark == 0 && markCount == 0 ? 0 : totalMark / markCount
+        }
+    }
+
+    onMounted(() => {
+        journalStore.journal.filter(p => (p.group == journalStore.activeGroup) && (p.subject == journalStore.activeSubject)).forEach(element => {
+            setTotalMark(element)
+        }) 
+    })
 
     let legend = [
         {

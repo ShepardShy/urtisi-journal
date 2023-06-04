@@ -1,0 +1,27 @@
+@use '@/assets/variables.scss' as variables;
+@use '@/assets/mixins.scss' as mixins;
+
+@mixin stickyBlock() {
+    position: sticky;
+    z-index: 2;
+    border-left: 1px solid #eeeff1;
+}
+
+.table__educator {
+    .table__item {       
+        &:first-child {
+            left: 0px;
+            @include stickyBlock()
+        }
+
+        &:nth-child(2) {
+            left: 50px;
+            @include stickyBlock()
+        }
+
+        &:last-child {
+            right: 0px;
+            @include stickyBlock()
+        }
+    }
+}

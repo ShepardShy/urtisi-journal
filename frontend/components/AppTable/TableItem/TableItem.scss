@@ -2,6 +2,7 @@
 @use '@/assets/mixins.scss' as mixins;
 
 .table__item {
+    background: #fff;
     padding: 0px 5px;
     width: var(--default-width);
     max-width: var(--default-width);
@@ -31,10 +32,28 @@ td {
             border-bottom: 1px solid #eeeff1;
         }
     }
+
+    .table__row_blue {
+        .table__item {
+            background: #d4e2fe;
+        }
+    }
+
+    .table__row_grey {
+        .table__item {
+            background: #dddddd;
+        }
+    }
+
+    .table__row:hover {
+        .table__item {
+            background: #efefef;
+        }
+    }
 }
 
 .table__item_red {
-    background: rgba(255, 12, 12, 0.35);
+    background: rgba(255, 12, 12, 0.35) !important;
 }
 
 .table__item_center {

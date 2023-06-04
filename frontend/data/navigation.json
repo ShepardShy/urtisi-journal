@@ -54,19 +54,5 @@
             "src": "/icons/journal_active.svg",
             "alt": "Иконка. Журнал"
         }
-    },
-    {
-        "id": 2,
-        "root": "educator",
-        "title": "Студенты",
-        "link": "/educator/students",
-        "img": {
-            "src": "/icons/group.svg",
-            "alt": "Иконка. Студенты"
-        },
-        "img_active": {
-            "src": "/icons/group_active.svg",
-            "alt": "Иконка. Студенты"
-        }
     }
 ]

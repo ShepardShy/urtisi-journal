@@ -1,1666 +1,584 @@
 [
     {
         "id": 0,
+        "order": 1,
         "student": "Иванов Иван Иванович",
         "02.12": {
-            "status": "absence",
-            "mark": ".",
-            "debt": false
-        },
-        "03.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "04.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "05.12": {
-            "status": "late",
-            "mark": ".",
-            "debt": false
-        },
-        "06.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "07.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "08.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "09.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "10.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "11.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "12.12": {
-            "status": "",
-            "mark": ".",
+            "status": "1",
+            "mark": "2",
             "debt": false
         },
         "total": {
             "status": "",
-            "mark": "4"
+            "mark": ""
         },
-        "status": "study"
-    },
-    {
-        "id": 1,
-        "student": "Сергеев Сергей Сергеевич",
-        "02.12": {
-            "status": "absence",
-            "mark": ".",
-            "debt": false
-        },
-        "03.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "04.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "05.12": {
-            "status": "late",
-            "mark": ".",
-            "debt": false
-        },
-        "06.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "07.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "08.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "09.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "10.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "11.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "12.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "total": {
-            "status": "",
-            "mark": "4"
-        },
+        "group": 982,
+        "subject": "bjd",
         "status": "study"
     },
     {
         "id": 2,
+        "order": 2,
         "student": "Степанов Степан Степанович",
         "02.12": {
-            "status": "absence",
-            "mark": ".",
-            "debt": false
-        },
-        "03.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "04.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "05.12": {
-            "status": "late",
-            "mark": ".",
-            "debt": false
-        },
-        "06.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "07.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "08.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "09.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "10.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "11.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "12.12": {
-            "status": "",
-            "mark": ".",
+            "status": "2",
+            "mark": "3",
             "debt": false
         },
         "total": {
             "status": "",
-            "mark": "4"
+            "mark": ""
         },
-        "status": "study"
-    },
-    {
-        "id": 3,
-        "student": "Брагин Кирилл Игоревич",
-        "02.12": {
-            "status": "absence",
-            "mark": ".",
-            "debt": false
-        },
-        "03.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "04.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "05.12": {
-            "status": "late",
-            "mark": ".",
-            "debt": false
-        },
-        "06.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "07.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "08.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "09.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "10.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "11.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "12.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "total": {
-            "status": "",
-            "mark": "4"
-        },
+        "group": 982,
+        "subject": "bjd",
         "status": "study"
     },
     {
         "id": 4,
+        "order": 3,
         "student": "Поведа Татьяна Валерьевна",
         "02.12": {
-            "status": "absence",
-            "mark": ".",
-            "debt": false
-        },
-        "03.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "04.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "05.12": {
-            "status": "late",
-            "mark": ".",
-            "debt": false
-        },
-        "06.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "07.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "08.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "09.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "10.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "11.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "12.12": {
-            "status": "",
-            "mark": ".",
+            "status": "3",
+            "mark": "4",
             "debt": false
         },
         "total": {
             "status": "",
-            "mark": "4"
+            "mark": ""
         },
-        "status": "study"
-    },
-    {
-        "id": 5,
-        "student": "Игорев Игорь Игоревич",
-        "02.12": {
-            "status": "absence",
-            "mark": ".",
-            "debt": false
-        },
-        "03.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "04.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "05.12": {
-            "status": "late",
-            "mark": ".",
-            "debt": false
-        },
-        "06.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "07.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "08.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "09.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "10.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "11.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "12.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "total": {
-            "status": "",
-            "mark": "4"
-        },
+        "group": 982,
+        "subject": "bjd",
         "status": "study"
     },
     {
         "id": 6,
+        "order": 4,
         "student": "Валерьев Валерий Валерьевич",
         "02.12": {
-            "status": "absence",
-            "mark": ".",
+            "status": "1",
+            "mark": "5",
             "debt": false
         },
-        "03.12": {
+        "total": {
             "status": "",
-            "mark": ".",
-            "debt": false
+            "mark": ""
         },
-        "04.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "05.12": {
-            "status": "late",
-            "mark": ".",
-            "debt": false
-        },
-        "06.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "07.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "08.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "09.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "10.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "11.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "12.12": {
-            "status": "",
+        "group": 982,
+        "subject": "bjd",
+        "status": "study"
+    },
+
+    {
+        "id": 1,
+        "order": 1,
+        "student": "Сергеев Сергей Сергеевич",
+        "02.12": {
+            "status": "2",
             "mark": ".",
             "debt": false
         },
         "total": {
             "status": "",
-            "mark": "4"
+            "mark": ""
         },
+        "subject": "bjd",
+        "group": 981,
+        "status": "study"
+    },
+    {
+        "id": 3,
+        "order": 2,
+        "student": "Брагин Кирилл Игоревич",
+        "02.12": {
+            "status": "2",
+            "mark": ".",
+            "debt": false
+        },
+        "total": {
+            "status": "",
+            "mark": ""
+        },
+        "group": 981,
+        "subject": "bjd",
+        "status": "study"
+    },
+    {
+        "id": 5,
+        "order": 3,
+        "student": "Игорев Игорь Игоревич",
+        "02.12": {
+            "status": "2",
+            "mark": ".",
+            "debt": false
+        },
+        "total": {
+            "status": "",
+            "mark": ""
+        },
+        "group": 981,
+        "subject": "bjd",
         "status": "study"
     },
     {
         "id": 7,
+        "order": 4,
         "student": "Зацепин Владимир Александрович",
         "02.12": {
-            "status": "absence",
+            "status": "2",
             "mark": ".",
             "debt": true
-        },
-        "03.12": {
-            "status": "",
-            "mark": ".",
-            "debt": true
-        },
-        "04.12": {
-            "status": "",
-            "mark": ".",
-            "debt": true
-        },
-        "05.12": {
-            "status": "late",
-            "mark": ".",
-            "debt": false
-        },
-        "06.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "07.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "08.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "09.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "10.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "11.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "12.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
         },
         "total": {
             "status": "",
-            "mark": "4"
+            "mark": ""
         },
+        "group": 981,
+        "subject": "bjd",
         "status": "expelled"
     },
+    
+
+
+
+
+
+
+
+
+
+
     {
-        "id": 1,
-        "student": "Сергеев Сергей Сергеевич",
+        "id": 0,
+        "order": 1,
+        "student": "Иванов Иван Иванович",
         "02.12": {
-            "status": "absence",
+            "status": "2",
             "mark": ".",
             "debt": false
-        },
-        "03.12": {
-            "status": "",
-            "mark": ".",
-            "debt": true
-        },
-        "04.12": {
-            "status": "",
-            "mark": ".",
-            "debt": true
-        },
-        "05.12": {
-            "status": "late",
-            "mark": ".",
-            "debt": true
-        },
-        "06.12": {
-            "status": "",
-            "mark": ".",
-            "debt": true
-        },
-        "07.12": {
-            "status": "",
-            "mark": ".",
-            "debt": true
-        },
-        "08.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "09.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "10.12": {
-            "status": "",
-            "mark": ".",
-            "debt": true
-        },
-        "11.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "12.12": {
-            "status": "",
-            "mark": ".",
-            "debt": true
         },
         "total": {
             "status": "",
-            "mark": "4"
+            "mark": ""
         },
+        "group": 982,
+        "subject": "mathematic",
         "status": "study"
     },
     {
         "id": 2,
+        "order": 2,
         "student": "Степанов Степан Степанович",
         "02.12": {
-            "status": "absence",
-            "mark": ".",
-            "debt": false
-        },
-        "03.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "04.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "05.12": {
-            "status": "late",
-            "mark": ".",
-            "debt": false
-        },
-        "06.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "07.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "08.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "09.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "10.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "11.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "12.12": {
-            "status": "",
+            "status": "2",
             "mark": ".",
             "debt": false
         },
         "total": {
             "status": "",
-            "mark": "4"
+            "mark": ""
         },
-        "status": "study"
-    },
-    {
-        "id": 3,
-        "student": "Брагин Кирилл Игоревич",
-        "02.12": {
-            "status": "absence",
-            "mark": ".",
-            "debt": false
-        },
-        "03.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "04.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "05.12": {
-            "status": "late",
-            "mark": ".",
-            "debt": false
-        },
-        "06.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "07.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "08.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "09.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "10.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "11.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "12.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "total": {
-            "status": "",
-            "mark": "4"
-        },
+        "group": 982,
+        "subject": "mathematic",
         "status": "study"
     },
     {
         "id": 4,
+        "order": 3,
         "student": "Поведа Татьяна Валерьевна",
         "02.12": {
-            "status": "absence",
-            "mark": ".",
-            "debt": false
-        },
-        "03.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "04.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "05.12": {
-            "status": "late",
-            "mark": ".",
-            "debt": false
-        },
-        "06.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "07.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "08.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "09.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "10.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "11.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "12.12": {
-            "status": "",
+            "status": "2",
             "mark": ".",
             "debt": false
         },
         "total": {
             "status": "",
-            "mark": "4"
+            "mark": ""
         },
-        "status": "study"
-    },
-    {
-        "id": 5,
-        "student": "Игорев Игорь Игоревич",
-        "02.12": {
-            "status": "absence",
-            "mark": ".",
-            "debt": false
-        },
-        "03.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "04.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "05.12": {
-            "status": "late",
-            "mark": ".",
-            "debt": false
-        },
-        "06.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "07.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "08.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "09.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "10.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "11.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "12.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "total": {
-            "status": "",
-            "mark": "4"
-        },
+        "group": 982,
+        "subject": "mathematic",
         "status": "study"
     },
     {
         "id": 6,
+        "order": 4,
         "student": "Валерьев Валерий Валерьевич",
         "02.12": {
-            "status": "absence",
-            "mark": ".",
-            "debt": false
-        },
-        "03.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "04.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "05.12": {
-            "status": "late",
-            "mark": ".",
-            "debt": false
-        },
-        "06.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "07.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "08.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "09.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "10.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "11.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "12.12": {
-            "status": "",
+            "status": "2",
             "mark": ".",
             "debt": false
         },
         "total": {
             "status": "",
-            "mark": "4"
+            "mark": ""
         },
+        "group": 982,
+        "subject": "mathematic",
+        "status": "study"
+    },
+
+    {
+        "id": 1,
+        "order": 1,
+        "student": "Сергеев Сергей Сергеевич",
+        "02.12": {
+            "status": "2",
+            "mark": ".",
+            "debt": false
+        },
+        "total": {
+            "status": "",
+            "mark": ""
+        },
+        "subject": "mathematic",
+        "group": 981,
         "status": "study"
     },
     {
-        "id": 1,
-        "student": "Сергеев Сергей Сергеевич",
+        "id": 3,
+        "order": 2,
+        "student": "Брагин Кирилл Игоревич",
         "02.12": {
-            "status": "absence",
-            "mark": ".",
-            "debt": false
-        },
-        "03.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "04.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "05.12": {
-            "status": "late",
-            "mark": ".",
-            "debt": false
-        },
-        "06.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "07.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "08.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "09.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "10.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "11.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "12.12": {
-            "status": "",
+            "status": "2",
             "mark": ".",
             "debt": false
         },
         "total": {
             "status": "",
-            "mark": "4"
+            "mark": ""
         },
+        "group": 981,
+        "subject": "mathematic",
+        "status": "study"
+    },
+    {
+        "id": 5,
+        "order": 3,
+        "student": "Игорев Игорь Игоревич",
+        "02.12": {
+            "status": "2",
+            "mark": ".",
+            "debt": false
+        },
+        "total": {
+            "status": "",
+            "mark": ""
+        },
+        "group": 981,
+        "subject": "mathematic",
+        "status": "study"
+    },
+    {
+        "id": 7,
+        "order": 4,
+        "student": "Зацепин Владимир Александрович",
+        "02.12": {
+            "status": "2",
+            "mark": ".",
+            "debt": true
+        },
+        "total": {
+            "status": "",
+            "mark": ""
+        },
+        "group": 981,
+        "subject": "mathematic",
+        "status": "expelled"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "id": 0,
+        "order": 1,
+        "student": "Иванов Иван Иванович",
+        "02.12": {
+            "status": "2",
+            "mark": "3",
+            "debt": false
+        },
+        "total": {
+            "status": "",
+            "mark": ""
+        },
+        "group": 982,
+        "subject": "fizra",
         "status": "study"
     },
     {
         "id": 2,
+        "order": 2,
         "student": "Степанов Степан Степанович",
         "02.12": {
-            "status": "absence",
-            "mark": ".",
-            "debt": false
-        },
-        "03.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "04.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "05.12": {
-            "status": "late",
-            "mark": ".",
-            "debt": false
-        },
-        "06.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "07.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "08.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "09.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "10.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "11.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "12.12": {
-            "status": "",
-            "mark": ".",
+            "status": "2",
+            "mark": "5",
             "debt": false
         },
         "total": {
             "status": "",
-            "mark": "4"
+            "mark": ""
         },
-        "status": "study"
-    },
-    {
-        "id": 3,
-        "student": "Брагин Кирилл Игоревич",
-        "02.12": {
-            "status": "absence",
-            "mark": ".",
-            "debt": false
-        },
-        "03.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "04.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "05.12": {
-            "status": "late",
-            "mark": ".",
-            "debt": false
-        },
-        "06.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "07.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "08.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "09.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "10.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "11.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "12.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "total": {
-            "status": "",
-            "mark": "4"
-        },
+        "group": 982,
+        "subject": "fizra",
         "status": "study"
     },
     {
         "id": 4,
+        "order": 3,
         "student": "Поведа Татьяна Валерьевна",
         "02.12": {
-            "status": "absence",
-            "mark": ".",
-            "debt": false
-        },
-        "03.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "04.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "05.12": {
-            "status": "late",
-            "mark": ".",
-            "debt": false
-        },
-        "06.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "07.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "08.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "09.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "10.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "11.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "12.12": {
-            "status": "",
-            "mark": ".",
+            "status": "2",
+            "mark": "5",
             "debt": false
         },
         "total": {
             "status": "",
-            "mark": "4"
+            "mark": ""
         },
-        "status": "study"
-    },
-    {
-        "id": 5,
-        "student": "Игорев Игорь Игоревич",
-        "02.12": {
-            "status": "absence",
-            "mark": ".",
-            "debt": false
-        },
-        "03.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "04.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "05.12": {
-            "status": "late",
-            "mark": ".",
-            "debt": false
-        },
-        "06.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "07.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "08.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "09.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "10.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "11.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "12.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "total": {
-            "status": "",
-            "mark": "4"
-        },
+        "group": 982,
+        "subject": "fizra",
         "status": "study"
     },
     {
         "id": 6,
+        "order": 4,
         "student": "Валерьев Валерий Валерьевич",
         "02.12": {
-            "status": "absence",
-            "mark": ".",
-            "debt": false
-        },
-        "03.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "04.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "05.12": {
-            "status": "late",
-            "mark": ".",
-            "debt": false
-        },
-        "06.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "07.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "08.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "09.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "10.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "11.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "12.12": {
-            "status": "",
-            "mark": ".",
+            "status": "2",
+            "mark": "5",
             "debt": false
         },
         "total": {
             "status": "",
-            "mark": "4"
+            "mark": ""
         },
+        "group": 982,
+        "subject": "fizra",
+        "status": "study"
+    },
+
+    {
+        "id": 1,
+        "order": 1,
+        "student": "Сергеев Сергей Сергеевич",
+        "02.12": {
+            "status": "2",
+            "mark": "4",
+            "debt": false
+        },
+        "total": {
+            "status": "",
+            "mark": ""
+        },
+        "subject": "fizra",
+        "group": 981,
         "status": "study"
     },
     {
-        "id": 1,
-        "student": "Сергеев Сергей Сергеевич",
+        "id": 3,
+        "order": 2,
+        "student": "Брагин Кирилл Игоревич",
         "02.12": {
-            "status": "absence",
-            "mark": ".",
-            "debt": false
-        },
-        "03.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "04.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "05.12": {
-            "status": "late",
-            "mark": ".",
-            "debt": false
-        },
-        "06.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "07.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "08.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "09.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "10.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "11.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "12.12": {
-            "status": "",
+            "status": "2",
             "mark": ".",
             "debt": false
         },
         "total": {
             "status": "",
-            "mark": "4"
+            "mark": ""
         },
+        "group": 981,
+        "subject": "fizra",
+        "status": "study"
+    },
+    {
+        "id": 5,
+        "order": 3,
+        "student": "Игорев Игорь Игоревич",
+        "02.12": {
+            "status": "2",
+            "mark": ".",
+            "debt": false
+        },
+        "total": {
+            "status": "",
+            "mark": ""
+        },
+        "group": 981,
+        "subject": "fizra",
+        "status": "study"
+    },
+    {
+        "id": 7,
+        "order": 4,
+        "student": "Зацепин Владимир Александрович",
+        "02.12": {
+            "status": "2",
+            "mark": "5",
+            "debt": true
+        },
+        "total": {
+            "status": "",
+            "mark": ""
+        },
+        "group": 981,
+        "subject": "fizra",
+        "status": "expelled"
+    },
+
+
+
+
+
+
+
+
+    {
+        "id": 0,
+        "order": 1,
+        "student": "Иванов Иван Иванович",
+        "02.12": {
+            "status": "2",
+            "mark": "3",
+            "debt": false
+        },
+        "total": {
+            "status": "",
+            "mark": ""
+        },
+        "group": 982,
+        "subject": "russian",
         "status": "study"
     },
     {
         "id": 2,
+        "order": 2,
         "student": "Степанов Степан Степанович",
         "02.12": {
-            "status": "absence",
-            "mark": ".",
-            "debt": false
-        },
-        "03.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "04.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "05.12": {
-            "status": "late",
-            "mark": ".",
-            "debt": false
-        },
-        "06.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "07.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "08.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "09.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "10.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "11.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "12.12": {
-            "status": "",
-            "mark": ".",
+            "status": "2",
+            "mark": "3",
             "debt": false
         },
         "total": {
             "status": "",
-            "mark": "4"
+            "mark": ""
         },
-        "status": "study"
-    },
-    {
-        "id": 3,
-        "student": "Брагин Кирилл Игоревич",
-        "02.12": {
-            "status": "absence",
-            "mark": ".",
-            "debt": false
-        },
-        "03.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "04.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "05.12": {
-            "status": "late",
-            "mark": ".",
-            "debt": false
-        },
-        "06.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "07.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "08.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "09.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "10.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "11.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "12.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "total": {
-            "status": "",
-            "mark": "4"
-        },
+        "group": 982,
+        "subject": "russian",
         "status": "study"
     },
     {
         "id": 4,
+        "order": 3,
         "student": "Поведа Татьяна Валерьевна",
         "02.12": {
-            "status": "absence",
-            "mark": ".",
-            "debt": false
-        },
-        "03.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "04.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "05.12": {
-            "status": "late",
-            "mark": ".",
-            "debt": false
-        },
-        "06.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "07.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "08.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "09.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "10.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "11.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "12.12": {
-            "status": "",
-            "mark": ".",
+            "status": "2",
+            "mark": "3",
             "debt": false
         },
         "total": {
             "status": "",
-            "mark": "4"
+            "mark": ""
         },
-        "status": "study"
-    },
-    {
-        "id": 5,
-        "student": "Игорев Игорь Игоревич",
-        "02.12": {
-            "status": "absence",
-            "mark": ".",
-            "debt": false
-        },
-        "03.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "04.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "05.12": {
-            "status": "late",
-            "mark": ".",
-            "debt": false
-        },
-        "06.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "07.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "08.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "09.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "10.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "11.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "12.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "total": {
-            "status": "",
-            "mark": "4"
-        },
+        "group": 982,
+        "subject": "russian",
         "status": "study"
     },
     {
         "id": 6,
+        "order": 4,
         "student": "Валерьев Валерий Валерьевич",
         "02.12": {
-            "status": "absence",
-            "mark": ".",
-            "debt": false
-        },
-        "03.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "04.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "05.12": {
-            "status": "late",
-            "mark": ".",
-            "debt": false
-        },
-        "06.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "07.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "08.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "09.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "10.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "11.12": {
-            "status": "",
-            "mark": ".",
-            "debt": false
-        },
-        "12.12": {
-            "status": "",
-            "mark": ".",
+            "status": "2",
+            "mark": "3",
             "debt": false
         },
         "total": {
             "status": "",
-            "mark": "4"
+            "mark": ""
         },
+        "group": 982,
+        "subject": "russian",
         "status": "study"
+    },
+
+
+    {
+        "id": 1,
+        "order": 1,
+        "student": "Сергеев Сергей Сергеевич",
+        "02.12": {
+            "status": "2",
+            "mark": "3",
+            "debt": false
+        },
+        "total": {
+            "status": "",
+            "mark": ""
+        },
+        "subject": "russian",
+        "group": 981,
+        "status": "study"
+    },
+    {
+        "id": 3,
+        "order": 2,
+        "student": "Брагин Кирилл Игоревич",
+        "02.12": {
+            "status": "2",
+            "mark": "3",
+            "debt": false
+        },
+        "total": {
+            "status": "",
+            "mark": ""
+        },
+        "group": 981,
+        "subject": "russian",
+        "status": "study"
+    },
+    {
+        "id": 5,
+        "order": 3,
+        "student": "Игорев Игорь Игоревич",
+        "02.12": {
+            "status": "2",
+            "mark": "3",
+            "debt": false
+        },
+        "total": {
+            "status": "",
+            "mark": ""
+        },
+        "group": 981,
+        "subject": "russian",
+        "status": "study"
+    },
+    {
+        "id": 7,
+        "order": 4,
+        "student": "Зацепин Владимир Александрович",
+        "02.12": {
+            "status": "2",
+            "mark": "3",
+            "debt": true
+        },
+        "total": {
+            "status": "",
+            "mark": ""
+        },
+        "group": 981,
+        "subject": "russian",
+        "status": "expelled"
     }
 ]
