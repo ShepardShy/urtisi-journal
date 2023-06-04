@@ -40,6 +40,12 @@
     import AppButton from '../AppButton/AppButton.vue'
     import AppLink from '../AppLink/AppLink.vue'
 
+    import { useUserStore } from '@/stores/userStore.js'
+    const userStore = useUserStore()
+    
+
+    const router = useRouter()
+
     let authInputs = ref([
         {
             id: 0,
@@ -69,10 +75,9 @@
     // Запись данных в поля
     const changeValue = (data) => {
         auth.value[data.key] = data.value 
-        console.log(auth.value);
     }
 
     const sendAuth = () => {
-        console.log(auth.value);
+        userStore.user.root == 'educator' ? router.push('/educator/journal') : router.push('/journal') 
     }
 </script>
